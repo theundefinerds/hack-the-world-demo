@@ -1,0 +1,138 @@
+.feed-item {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.84);
+}
+
+.feed-item .feedback-item-image {
+  width: 100%;
+  min-height: 380px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.feed-item .feed-item-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.feed-item .feed-item-content {
+  line-height: 1.5em;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.feed-item .feed-item-info .avatar{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.feed-item .feed-item-info .info-container {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.feed-item .feed-item-info .nick {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.feed-item .feed-item-info .time,
+.feed-item .feed-item-info .social-network{
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.feed-item .feed-item-info .circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 6px;
+}
+
+.feed-item .image-interaction {
+  display: flex;
+  align-items: center;
+}
+
+.feed-item .image-interaction .image-interaction-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-item .image-interaction .image-interaction-text .nick {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.feed-item .image-interaction .image-interaction-text .circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 6px;
+}
+
+.feed-item .image-interaction .image-interaction-text .time,
+.feed-item .image-interaction .image-interaction-text .social-network {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.feed-item .image-like-container {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin-right: 12px;
+}
+
+.feed-item .image-like-container-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.feed-item .image-like-container-illustration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+}
+.hashtag {
+  font-weight: 700;
+}
+.like-counter {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.like-counter-number {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heart-icon {
+  fill: #E2264D;
+  height: 15px;
+  margin-right: 3px;
+}
+.feed-metadata {
+ display: flex;
+ align-items: center;
+ width: 100%;
+ justify-content: space-between; 
+}

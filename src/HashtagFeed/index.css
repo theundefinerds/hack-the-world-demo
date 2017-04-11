@@ -1,0 +1,10 @@
+.hashtag-feed {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 14px;
+  padding-bottom: 0;
+  overflow-y: scroll;
+}
